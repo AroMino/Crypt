@@ -1,0 +1,80 @@
+.window{
+/*
+	background: linear-gradient(20deg,rgb(20,20,30),rgb(0,100,100));
+*/
+	background: linear-gradient(0deg,rgb(0,0,20),rgb(0,0,60));
+
+}
+
+.button{
+	font-family: Monospace;
+	font-size: 13px; 
+	font-weight: bold; 
+    background-color: black;
+    background: linear-gradient(20deg,rgba(20,20,30,0.8),rgba(0,50,60,0.8));
+}
+
+.button:hover{
+    background: black;
+    font-size: 14px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(100, 0, 0, 0.5);
+}
+
+.button:focus{
+	font-size: 14px;
+	border: none;
+	box-shadow: 2px 2px 4px rgba(100, 0, 0, 0.7);
+	
+}
+
+
+.button:checked{
+    background: linear-gradient(0deg,rgba(100,0,0,0.7),rgba(150,0,0,0.7));
+    font-size: 13px; 
+}
+
+
+.entry{
+	font-weight: bold;
+	font-size: 13px; 
+	font-family: Arial;
+	background: linear-gradient(20deg,rgba(0,40,50,0.8),rgba(0,30,30,0.8));
+}
+
+.entry:focus{
+	font-weight: bold;
+	font-size: 13px; 
+	font-family: Arial;
+	background: linear-gradient(20deg,rgba(0,10,10,0.5),rgba(0,20,20,0.5));
+}
+
+.window_war{
+	background: linear-gradient(20deg,rgb(100,60,30),rgb(100,20,50));
+}
+
+.button_war{
+	background: linear-gradient(20deg,rgb(100,60,30),rgb(100,20,50));
+}
+
+.button_war:hover{
+	background: linear-gradient(20deg,rgb(80,50,20),rgb(80,10,40));
+}
+
+.button_war1{
+	background: linear-gradient(20deg,rgb(100,60,30),rgb(100,20,50));
+}
+
+.button_war1:hover{
+	background: linear-gradient(20deg,rgb(80,50,20),rgb(80,10,40));
+	border: none;
+}
+
+.button_war1:focus{
+	background: linear-gradient(20deg,rgb(80,50,20),rgb(80,10,40));
+}
+
+.text{
+	font-family: "Monospace";
+	font-weight: bold;
+}
