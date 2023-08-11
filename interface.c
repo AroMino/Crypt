@@ -5,7 +5,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include "cry2.c"
+#include "cry.c"
 
 typedef struct {
 	GtkWidget * window;
