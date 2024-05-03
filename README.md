@@ -1,1 +1,2 @@
-Programme de cryptographie basique en C
+Basic cryptography program in C
+To try, launch interface
